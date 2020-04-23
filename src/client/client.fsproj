@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="HtmlAgilityPack_FSharp.fs" />
+        <Compile Include="CompanySearch.fs" />
+        <Compile Include="ReadExcel.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+        <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+        <PackageReference Include="ExcelProvider" Version="1.0.1" />
+        <PackageReference Include="FSharp.data" Version="3.3.3" />
+        <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
+        <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
+    </ItemGroup>
+</Project>
